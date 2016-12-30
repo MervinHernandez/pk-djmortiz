@@ -1,0 +1,115 @@
+/* = Mervin's Customizations */
+#bands-box {background-color:black;}
+div#bit-events a {color:white;}
+/* = = = = = = */ 
+.bit-widget-container { font-family:arial,helvetica,sans-serif; font-size:13px;}
+.bit-events, .bit-events-narrow {overflow: hidden;display: table;}
+.bit-events th, .bit-events td {width: auto;text-align: left; padding: 4px;vertical-align:middle;}
+.bit-events td {height: 36px; background:none;}
+.bit-events-narrow td {width:auto; height:57px; background:none;padding:4px;vertical-align:middle;}
+#bit-events td.bit-tickets, #bit-events th.bit-tickets {width:55px; padding-right: 8px;}
+#bit-events td.bit-artist-event-link { text-align: right; }
+#bit-events td.bit-artist-event-link a { float: right; }
+#bit-events td.bit-actions a, #bit-events td.bit-rsvp a { float: right; }
+#bit-events td.bit-rsvp { width: 42px; padding-right: 8px; }
+#bit-events td.bit-comment { width: 21px; padding-left: 8px; padding-right: 8px; }
+#bit-events td .bit-uiButton { display:inline-block; padding: 1px 6px; height: 16px; line-height: 16px !important; cursor: pointer; font-family: "lucida grande",tahoma,verdana,arial,sans-serif}
+#bit-events td .bit-uiButton { background:#eee url("http://d38hmgjgf0kofx.cloudfront.net/images/facebook/silver-blue-bg.png") repeat 0 0; border:1px solid #999; border-bottom-color:#888; box-shadow:0 1px 0 rgba(0, 0, 0, .1); -moz-box-shadow:0 1px 0 rgba(0, 0, 0, .1); font-size:11px; font-weight:bold; text-align:center; text-decoration:none; vertical-align:top; white-space:nowrap }
+#bit-events td .bit-uiButton:active{background:#ddd;border-bottom-color:#999;box-shadow:0 1px 0 rgba(0, 0, 0, .05);-moz-box-shadow:0 1px 0 rgba(0, 0, 0, .05)}
+#bit-events td .bit-uiButtonSpecial{background-image:url("http://d38hmgjgf0kofx.cloudfront.net/images/facebook/silver-blue-bg.png"); background-repeat:no-repeat;background-position:0px -96px;background-color:#69a74e;border-color:#3b6e22 #3b6e22 #2c5115;}
+#bit-events td .bit-uiButtonSpecial:active{background:#609946;border-bottom-color:#3b6e22;}
+#bit-events td .bit-uiButton a, .bit-uiButton a:hover { text-decoration: none; display: inline-block; }
+#bit-events td .bit-uiButtonSpecial a { color: #FFFFFF; }
+#bit-events td .bit-uiButtonDefault a { color: #333333; }
+#bit-events td.bit-comment a.bit-comment { background: transparent url('http://d38hmgjgf0kofx.cloudfront.net/images/facebook/comments_icon.gif') 0px 0px no-repeat; width: 15px; height: 16px; display: inline-block; margin-top: 2px; float: right; }
+#bit-events td.bit-comment a:hover, #bit-events td.bit-comment a.bit-comment-open { background-position: 0px -16px; }
+#bit-events td.bit-location {font-weight:bold;}
+#bit-events td.bit-description, #bit-events th.bit-description {font-size: 85%; left: 8px 4px; }
+#bit-events td.bit-description-links, #bit-events th.bit-description-links {padding-left: 8px; width: 6px;}
+#bit-events .bit-hidden {display:none;}
+#bit-events .bit-bottom td {padding-left:8px;height:36px;}
+#bit-events .bit-bottom td.concerts-by-bandsintown {text-align:right;}
+#bit-events .bit-bottom a { vertical-align: middle; border: none; display: inline-block; }
+#bit-events table a { text-align: left; float: left; width:auto; }
+#bit-events table a:hover { -webkit-transition: none; -moz-transition: none; -o-transition: none; transition: none; }
+#bit-events td.bit-description a { float: none; }
+#bit-events a.bit-event-description-link { text-decoration: none; margin: 0; padding: 0; display: inline-block; height: 9px; width: 9px; line-height: 9px; font-size: 9px; text-align: center; vertical-align: middle; border: none;}
+.bit-events tr.bit-dashed-border td.bit-description-links, .bit-events tr.bit-dashed-border td.bit-date, .bit-events-narrow tr.bit-dashed-border td { border-top: 1px solid transparent;}
+#bit-events td.bit-concert a { float: none; }
+td.bit-date { width: 5%; }
+tr.bit-header th, tr.bit-header-narrow { line-height: 26px; }
+#bit-events tr.bit-header a, #bit-events tr.bit-header-narrow a { float: none; font-weight: normal; }
+#bit-events tr.bit-header-narrow th { text-align: left; padding: 4px;}
+#bit-events .bit-events-narrow tr.no-dates td a { display: block; }
+#bit-events .bit-events td.no-dates td { padding: 20px 0px; }
+#bit-events .bit-header-links { margin-right: 15px;}
+#bit-events .bit-share-text { float:right; }
+#bit-events .bit-share-links { float: right; }
+#bit-events .bit-share-links a { display: inline-block; width: 26px; height: 26px; vertical-align: middle; }
+#bit-events .bit-fb-share { background: transparent url('http://d38hmgjgf0kofx.cloudfront.net/images/facebook/icons/fb_share.gif') top left no-repeat; margin-left: 4px; display: inline-block; width: 26px; height:26px; vertical-align: middle;}
+#bit-events .bit-twitter-share { background: transparent url('http://d38hmgjgf0kofx.cloudfront.net/images/facebook/icons/twitter_share.gif') top left no-repeat; display: inline-block; width: 26px; height:26px; vertical-align: middle;}
+#bit-events .bit-events-narrow tr.no-dates td { padding-bottom: 25px; padding-top: 20px; }
+#bit-events tr.no-dates td { padding-top: 10px; padding-bottom: 10px; }
+#bit-events tr.no-dates td a { float: none; margin-top: 15px; }
+#bit-events td.bit-concert a.bit-buy-tix { padding-right: 8px; }
+.bit-header-overflow-fix { height: 26px; overflow: hidden; }
+#bit-events iframe { border: none; }
+#bit-events .comments-title, #bit-events .description-title { color: #323232; font-size: 11px; font-weight: bold; margin: 0px 0px 4px 0px;}
+#bit-events .bit-event-details { color: #000000; }
+#bit-events .bit-details-title { background-color: #ffffff; font-weight: bold; padding: 4px 8px 0px 20px; color: #0e0e0e; font-size: 11px; }
+#bit-events .bit-details-title a { float: right; color: #8296cc; text-decoration: none; }
+#bit-events .bit-details-title a:hover { color: #ffffff; text-decoration: none; }
+#bit-events .bit-details-text { background-color: #ffffff; margin-bottom: 1px; padding: 5px 8px 5px 20px; color: #1A1A1A; }
+#bit-events .bit-details-comments { background: transparent; padding: 0px; margin: 0px; }
+#bit-events .bit-details-text a { color: #3857a0; float: none; }
+#bit-events a.bit-fb-event-link { font-weight: bold; display: block; text-decoration: none; margin: 4px 0px; }
+#bit-events tr td.bit-details { padding: 0px; }
+#bit-events .venue, #bit-events .location, #bit-events .lineup { display: block; clear: left; font-size: smaller; line-height: 100%; }
+#bit-events .location { font-weight: bold }
+#bit-events a.bit-track-artist-header {text-align: center; padding: 10px 0px; font-size: 13px; line-height: 1.5; display: block; text-decoration: none; }
+#bit-events a.bit-track-artist-header:hover {text-decoration: none;}
+#bit-events a.bit-track-artist-header .bit-invert { display: inline-block; padding: 2px 20px; margin-bottom: 2px; }
+#bit-events tr[data-bit-event-id] td { cursor: pointer; }
+#bit-widget-dialog-container { position: fixed; width: 100%; height: 100%; margin: auto; }
+#bit-widget-dialog { color: #333333; direction: ltr; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size: 11px; text-align: left; }
+#bit-widget-dialog label { color: #666666; cursor: pointer; font-weight: bold; vertical-align: middle; }
+body#bit-widget-dialog { margin: 0px; padding: 0px; }
+#bit-widget-dialog-loading .loading { height: 32px; width: 100%; background: transparent url('http://d38hmgjgf0kofx.cloudfront.net/images/facebook/ajax-loader-large.gif') no-repeat scroll center center; }
+#bit-widget-dialog .pop_content{direction:ltr}
+#bit-widget-dialog {height:0;left:0;overflow:visible;outline:none;position:absolute;top:0;width:100%;z-index:250}
+#bit-widget-dialog .generic_dialog_popup{height:0;overflow:visible;position:relative;width:520px;margin:auto}
+#bit-widget-dialog .pop_content h2.dialog_title{background:#6d84b4;border:1px solid #3b5998;border-bottom:none;color:#fff;font-size: 14px;font-weight:bold;margin:0;}
+#bit-widget-dialog .pop_content h2 span{display:block;padding:5px 10px}
+#bit-widget-dialog .pop_content .dialog_content{background:#fff;border:1px solid #555;border-top-width:0}
+#bit-widget-dialog .pop_content .dialog_body{padding:10px;border-bottom:1px solid #ccc}
+#bit-widget-dialog .pop_content .dialog_buttons{background:#f2f2f2;padding:8px 10px 8px 10px;position:relative;text-align:right}
+#bit-widget-dialog .pop_container_advanced{border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;padding:10px}
+#bit-widget-dialog .uiButton,#bit-widget-dialog .uiButtonSuppressed:active,#bit-widget-dialog .uiButtonSuppressed:focus,#bit-widget-dialog .uiButtonSuppressed:hover{background:#eee url('http://d38hmgjgf0kofx.cloudfront.net/images/facebook/silver-blue-bg.png') repeat 0 0;border:1px solid #999;border-bottom-color:#888;box-shadow:0 1px 0 rgba(0, 0, 0, .1);-moz-box-shadow:0 1px 0 rgba(0, 0, 0, .1);cursor:pointer;display:-moz-inline-box;display:inline-block;font-size:11px;font-weight:bold;line-height:normal !important;padding:2px 6px;text-align:center;text-decoration:none;vertical-align:top;white-space:nowrap}
+#bit-widget-dialog .uiButtonConfirm{background-color:#5b74a8;background-position:0 -48px;border-color:#29447e #29447e #1a356e}
+#bit-widget-dialog .uiButton:active,#bit-widget-dialog .uiButtonDepressed{background:#ddd;border-bottom-color:#999;box-shadow:0 1px 0 rgba(0, 0, 0, .05);-moz-box-shadow:0 1px 0 rgba(0, 0, 0, .05)}
+#bit-widget-dialog .uiButton .uiButtonText,#bit-widget-dialog .uiButton input{background:none;border:0;color:#333;cursor:pointer;display:-moz-inline-box;display:inline-block;font-family:'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;font-size:11px;font-weight:bold;margin:0;outline:none;padding:1px 0 2px;white-space:nowrap}
+#bit-widget-dialog .uiButtonLarge,#bit-widget-dialog .uiButtonLarge .uiButtonText,#bit-widget-dialog .uiButtonLarge input{font-size:13px}
+#bit-widget-dialog .uiButtonSpecial .uiButtonText,#bit-widget-dialog .uiButtonSpecial input,#bit-widget-dialog .uiButtonSpecial.uiButtonDisabled .uiButtonText,#bit-widget-dialog .uiButtonSpecial.uiButtonDisabled input,#bit-widget-dialog .uiButtonConfirm .uiButtonText, #bit-widget-dialog .uiButtonConfirm input, #bit-widget-dialog .uiButtonConfirm.uiButtonDisabled .uiButtonText, #bit-widget-dialog .uiButtonConfirm.uiButtonDisabled input { color: #FFFFFF; }
+#bit-widget-dialog .uiButtonConfirm:active{background:#4f6aa3;border-bottom-color:#29447e}
+#bit-widget-dialog .popup-border-outer { z-index: 1; background: none; position: relative; }
+#bit-widget-dialog .popup-border-inner { background-color: #525252; -moz-opacity: 0.7; opacity: 0.7; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; padding: 0; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); }
+#bit-widget-dialog .popup-content { position: relative; z-index: 2; }
+#bit-widget-dialog h2 { padding: 0px; }
+#bit-widget-dialog .clear { clear: both; }
+* html #bit-widget-dialog .popup-border-inner  { display: none; }
+* html #rsvp-dialog-container { position: absolute; }
+#bit-events[data-bit-widget-id='1470537011233'] { width:100%;}
+#bit-events[data-bit-widget-id='1470537011233'] {}
+#bit-events[data-bit-widget-id='1470537011233'] .bit-events, .bit-events-narrow { width:100%;}
+#bit-events[data-bit-widget-id='1470537011233'] .bit-events td { border-top: 1px solid #E9E9E9;}
+#bit-events[data-bit-widget-id='1470537011233'] .bit-events-narrow td { border-top: 1px solid #E9E9E9;}
+#bit-events[data-bit-widget-id='1470537011233'] td{}
+#bit-events[data-bit-widget-id='1470537011233'] th{}
+#bit-events[data-bit-widget-id='1470537011233'] td{}
+#bit-events[data-bit-widget-id='1470537011233'] th{}
+#bit-events[data-bit-widget-id='1470537011233'] a{}
+#bit-events[data-bit-widget-id='1470537011233'] .bit-events tr.bit-dashed-border td { border-top: 1px dashed #E9E9E9;}
+#bit-events[data-bit-widget-id='1470537011233'] .bit-events-narrow tr.bit-dashed-border td.bit-description { border-top: 1px dashed #E9E9E9;}
+#bit-events[data-bit-widget-id='1470537011233'] .bit-events-narrow tr.no-dates td span{}
+#bit-events[data-bit-widget-id='1470537011233'] table { border-bottom: 1px solid #E9E9E9;}
+#bit-events[data-bit-widget-id='1470537011233'] a.bit-track-artist-header {border-top: 1px solid #E9E9E9; border-bottom: 1px solid #E9E9E9; }    
